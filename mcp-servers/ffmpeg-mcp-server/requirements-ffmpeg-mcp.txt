@@ -1,0 +1,7 @@
+# EduMotion AI FFmpeg MCP server
+# Python >= 3.12
+fastmcp>=4.0.10
+
+# System requirement (install separately; not a pip package):
+# FFmpeg and FFprobe must be installed and available on PATH,
+# or configured using FFMPEG_PATH and FFPROBE_PATH.

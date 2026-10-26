@@ -1,0 +1,10 @@
+# EduMotion AI Kokoro TTS MCP server
+# Python >= 3.12
+fastmcp>=4.0.10
+kokoro-onnx
+soundfile
+
+# Runtime assets required separately:
+# - Kokoro ONNX model file
+# - Kokoro voices .bin file
+# Configure paths with KOKORO_MODEL and KOKORO_VOICES.

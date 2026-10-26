@@ -1,0 +1,22 @@
+
+[project]
+name = "edumotion-ai"
+version = "0.1.0"
+description = "An AI-powered educational video generation agent using LangGraph, LLMs, and MCP servers."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=4.0.10",
+    "httpx>=0.28.1",
+    "langchain>=1.4.3",
+    "langchain-openai>=1.6.6",
+    "langgraph>=1.2.12",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+edumotion-ai = "video_agent.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
